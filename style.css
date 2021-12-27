@@ -113,3 +113,14 @@ iframe.center {
 .product{
     flex-direction: justify
 }
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+[role=button] {
+  cursor: pointer;
+}
