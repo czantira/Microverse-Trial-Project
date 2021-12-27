@@ -110,3 +110,6 @@ iframe.center {
 	left:0; 
 } 
 
+.product{
+    flex-direction: justify
+}
