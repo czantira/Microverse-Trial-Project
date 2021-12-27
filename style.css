@@ -83,9 +83,30 @@ iframe.center {
     position: relative;
   }
 
-  #email-form input[type='submit']:hover {
-    background-color: orange;
-    transition: background-color 1s;
+  #features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
   }
-  
-  
+
+  .btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  #logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
+
